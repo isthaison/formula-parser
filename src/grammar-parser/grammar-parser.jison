@@ -228,3 +228,10 @@ error
 ;
 
 %%
+// if (typeof require !== 'undefined' && typeof exports !== 'undefined') {
+//     exports.parser = grammarParser;
+//     exports.Parser = grammarParser.Parser;
+//     exports.parse = function () {
+//         return grammarParser.parse.apply(grammarParser, arguments);
+//     };
+// }
